@@ -1,0 +1,169 @@
+
+<!-- style.css -->
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f5f7fa, #e0f7fa);
+    color: #333;
+  }
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    display: none;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  section.active {
+    display: block;
+  }
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #e0f7fa;
+    border-left: 5px solid #007bff;
+    font-style: italic;
+  }
+  iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    margin-top: 20px;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+</style>
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZERO2GENIUS ACADEMY</title>
+</head>
+<body>
+  <header>
+    <h1>ZERO2GENIUS ACADEMY</h1>
+    <nav>
+      <a onclick="showPage('home')">Home</a>
+      <a onclick="showPage('courses')">Courses</a>
+      <a onclick="showPage('about')">About</a>
+      <a onclick="showPage('contact')">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="active">
+    <h2>💡 VISION:</h2>
+    <p>"Empowering future innovators with AI-driven education."</p>
+
+    <h2>🏆 MISSION:</h2>
+    <p>"Revolutionizing online learning in India with expert-led, personalized education."</p>
+
+    <p>Welcome to ZERO2GENIUS ACADEMY – India’s First AI-Backend Online Learning Platform. We help students from 5th class to Degree level master today's most powerful subjects — from basic learning to advanced AI and coding.</p>
+
+    <h3>🧠 What We Offer:</h3>
+    <ul>
+      <li>🎓 Online Classes for All Levels (5th Class to Degree)</li>
+      <li>💻 Learn Coding, C, AI, ML, DL, SQL, Python, Frontend, Math, English & Physics</li>
+      <li>👨‍🏫 M.Tech Expert Instructors</li>
+      <li>📣 Live Doubt Sessions, Real Projects & Weekly Tests</li>
+      <li>📝 Smart Notes, Certificates & Creative Learning</li>
+    </ul>
+
+    <h3>🏆 Why Choose Us?</h3>
+    <ul>
+      <li>🎓 Taught by Experts</li>
+      <li>🤖 Powered by Artificial Intelligence</li>
+      <li>🧠 Customized Learning Paths</li>
+      <li>🎮 Fun + Education with Creative Games</li>
+      <li>🥇 Topper Wall & Motivation Tracking</li>
+    </ul>
+
+    <h3>🎁 Try Us FREE!</h3>
+    <ul>
+      <li>✅ First 2 Classes FREE</li>
+      <li>❌ No Registration Fee</li>
+      <li>📜 Certificate on Completion</li>
+    </ul>
+
+    <blockquote>From ABC to AI – Learn. Grow. Lead.</blockquote>
+    <h2>💥 “You don’t need to be a genius — just curious.” 💥</h2>
+  </section>
+
+  <section id="courses">
+    <h2>Courses Offered</h2>
+    <p>Become A pro in just 30 days🏆</p>
+    <p>CODING C AI ML DL DS JAVA PYTHON SQL FRONT END</p>
+    <p>MATHEMATICS ENGLISH PHYSICS</p>
+    <p>Take your skills to the next level with our intensive 30-day cohort. Learn from experts, work on real-world projects, and become a proficient developer in just one month!</p>
+    <ul>
+      <li>Generate Codes in any language with AI</li>
+      <li>Manage data efficiently with AI</li>
+      <li>Debug & Test your codes with AI</li>
+      <li>Analyze & Visualize your Data with AI</li>
+    </ul>
+    <h3>⏰ TIME IS RUNNING OUT. GRAB YOUR SPOT FAST</h3>
+    <p>🏃 Limited Seats Only at Rs. 149/-</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewj0deLzsnYdSrH9W9Qai4a8BEyYNoK_EGDlRkYjo82RnvCA/viewform?embedded=true" loading="lazy">Loading…</iframe>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>ZERO2GENIUS ACADEMY is India’s first AI-backend online learning platform, offering world-class education from 5th Class to Degree students. Our mission is to take students from zero knowledge to genius level, empowering them with the most in-demand skills in today’s digital world.</p>
+    <ul>
+      <li>🎯 AI-Powered Smart Learning</li>
+      <li>👨‍🏫 Classes by M.Tech Experts</li>
+      <li>🧪 Live Doubts & Real-Time Projects</li>
+      <li>🧠 Weekly Tests, Smart Notes, & Certificates</li>
+      <li>🚀 Creative Games & Topper Wall</li>
+      <li>✅ First 2 Classes FREE – No Registration Fee</li>
+    </ul>
+    <blockquote>From ABC to AI – Learn. Grow. Lead.</blockquote>
+    <h2>💥 "Start small. Learn daily. Become unstoppable" 💥</h2>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Jeeva: 8106831043</p>
+    <p>Karun: 9347806059</p>
+    <p>Email: zero2genius@gmail.com</p>
+    <p>Telegram: ZERO2GENIUS ACADEMY</p>
+  </section>
+
+  <script>
+    function showPage(pageId) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+    }
+  </script>
+
+  <!-- Tidio Chatbot -->
+  <script src="//code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
+</body>
+</html>
